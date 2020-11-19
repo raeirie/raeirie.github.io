@@ -1,0 +1,524 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+body a{
+    text-decoration: none ;
+}
+
+body h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body p{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+section h1{
+    color: #31708e;
+}
+
+section h2{
+    font-size: 32px;
+    color: #31708e;
+}
+
+section h3{
+    font-size: 24px;
+}
+
+/* Navbar */
+.navbar{
+    min-height: 60px;
+    background-color: #31708e;
+    z-index: 100;
+}
+
+.navbar a.nav-link{
+    font-size: 18px;
+}
+
+.navbar .navbar-brand{
+font-weight: bold;
+}
+
+.navbar {
+    background-color: #31708e;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url('assets/jumbotron-bg.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron .btn-cta{
+    color: #fefefe;
+    padding-top: 100px;
+    opacity: 0.85;
+    position: relative;
+    z-index: 15;
+    font-size: 28px;
+}
+
+.jumbotron h2, .jumbotron h3{
+    padding-top: 0;
+    margin-top: 70px;
+    font-size: 18px;
+    opacity: 1;
+    font-weight: 400;
+}
+
+.jumbotron h2.line-2{
+    margin-top: 10px;
+}
+
+.jumbotron h3{
+    margin-top: 30px;
+    font-size: 14px;
+    opacity: 0.8;
+    font-weight: 100;
+}
+
+.jumbotron .btn-cta{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 300;
+    padding: 0px 45px 0px 45px;
+    background-color: #fefefe;
+    border-color: #fefefe;
+    border-width: 0;
+    display: block;
+    color: #31708e;
+}
+
+.overlay{
+    background-color: #404040;
+    height: 100vh;
+    opacity: 0.4;
+    z-index: 10;
+    position: relative;
+    margin-top: -100vh;
+}
+
+/* about */
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about  .about-img{
+    display: none;
+}
+
+.about div.col-about p{
+    line-height: 2rem;
+    font-size: 14px;
+}
+
+.about p.tagline{
+    color: #31708e;
+    font-weight: bold;
+}
+
+.about a.btn, .ourwork a.btn{
+    margin-top: 30px;
+    color: #31708e;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 16px 8px 16px;
+    background-color: #00000000;
+    border-color: #31708e;
+    border-width: 2px;
+}
+
+/*tools*/
+.tools{
+    margin-top: 30px;    
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.tools h1, .tools p{
+    text-align: center;
+}
+
+.tools p{
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.tools .card{
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    padding-top: 5px;
+    border-radius: 8px;
+    border-width: 0;
+}
+
+ /*our work*/
+ .ourwork{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    min-height: 800px;
+}
+
+.ourwork h1{
+    text-align: center;
+}
+
+.ourwork .card{
+    margin-top: 80px;
+    width: 200px;
+}
+
+.ourwork .card, .ourwork .card img{
+    border-radius: 8px;
+}
+
+.ourwork .card img{
+    height: 200px;
+}
+
+.ourwork .card .card-img-overlay{
+    background-color: #40404070;
+    transition: 0.4s;
+}
+
+.ourwork .card h3, .ourwork .card p{
+    color: #fefefe;
+}
+
+.ourwork .card h3{
+    font-weight: bold;
+}
+
+.ourwork .card p{
+    font-weight: lighter;
+}  
+
+.ourwork a.btn{
+    margin-top: 80px;
+}
+
+/* contact */
+.contact{
+    background-image: url('assets/contact-bg.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 80px;
+}
+
+.contact h2{
+    font-size: 24px;
+    font-weight: 1;
+    color: #404040;
+}
+
+.contact h2 span{
+    color: #31708e;
+    font-weight: bold;
+}
+
+.contact .email{
+    margin-top: 150px;
+    color: #31708e;
+}
+
+/* footer */
+.footer{
+    padding-top: 50px;
+    min-height: 150px;
+    background-color: #31708e;
+}
+
+.footer a.link-footer{
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer a:hover {
+    color: #fefefe;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+/* social media */
+.fa {
+    margin-left: 10px;
+    font-size: 18px;
+    width: 18px;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #fefefe;
+}
+
+.fa-copyright{
+    font-size: 10px;
+    width: 10px;
+}
+
+.copyright {
+    margin-top: 50px;
+    color: #fefefe;
+}
+
+p.copyright {
+    font-size: 12px;
+}
+
+
+/* DESKTOP */
+@media (min-width: 992px) {
+    
+    /* Navbar */
+    
+
+    /* Jumbotron */
+    .jumbotron h1, .jumbotron h2, .jumbotron h3, .jumbotron .btn-cta{
+        padding-top: 200px;
+        font-size: 40px;
+    }
+
+    .jumbotron h2, .jumbotron h3{
+        font-size: 24px;
+        padding-top: 0;
+    }
+
+    .jumbotron .btn-cta{
+        font-size: 24px;
+        padding: 0px 45px 0px 45px;
+        display: inline-block;
+        background-color: #00000000;
+        color: #fefefe;
+        border-color: #fefefe;
+        border-width: 4px;
+    }
+
+    .jumbotron .btn-cta:hover{
+        background-color: #fefefe;
+        color: #31708e;
+    }
+
+    /* about */
+    .about {
+        min-height: 500px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .about h1{
+        text-align: center;
+        color: #31708e;
+    }
+
+    .about .about-img{
+        display: block;
+    }
+
+    .about .img-thumbnail{
+        border-width: 0;
+        margin-top: 60px;
+    }
+
+
+    .about div.col-about{
+        margin-left: 100px;
+        margin-top: 143px;
+        line-height: 2rem;
+    }
+
+    .about div.col-about p{
+        font-size: 18px;    
+    }
+
+    .about a.btn, .ourwork a.btn{
+        margin-top: 40px;
+    }
+
+    .about a.btn:hover{
+        color: #fefefe;
+        background-color: #31708e;
+    }
+
+    /*tools*/
+    .tools{
+        min-height: 700px;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+    .tools p{
+        margin-top: 70px;
+    }
+
+    .tools .card{
+        margin-top: 130px;
+        width: 150px;
+        height: 150px;
+        padding: 25px;
+        padding-top: 5px;
+        border-radius: 8px;
+        border-width: 0;
+        opacity: 0.7;
+    }
+
+    .tools .card:hover{
+        opacity: 1;
+        transition: 0.5s;
+    }
+
+    /*our work*/
+    .ourwork .card{
+        width: 300px;
+        height: 350px;
+    }
+
+    .ourwork .card img{
+        width: 300px;
+        height: 350px;
+    }
+
+    .ourwork .card .card-img-overlay{
+        opacity: 0;
+        z-index: 1;
+        color: #fefefe;
+    }
+
+    .ourwork .card:hover .card-img-overlay{
+        cursor: pointer;
+        opacity: 1;
+        background-color: #40404090;
+        transition: 0.4s;
+    }
+
+    .ourwork .card-title{
+        margin-top: 200px;
+        font-weight: bold;
+    }
+
+    .ourwork .card-text{
+        font-weight: lighter;
+    }  
+
+    .ourwork a.btn{
+        margin-top: 80px;
+    }
+
+    .ourwork a.btn:hover{
+        color: #fefefe;
+        background-color: #31708e;
+    }
+
+    /* contact */
+    .contact{
+        background-image: url('assets/contact-bg.jpg');
+        height: 100vh;
+        background-size: cover;
+        background-position: center -100px;
+        padding-top: 170px;
+    }
+
+    .contact h2{
+        font-size: 32px;
+        font-weight: 1;
+        color: #404040;
+        margin-bottom: -150px;
+        line-height: 50px;
+    }
+
+    .contact h2 span{
+        color: #31708e;
+        font-weight: bold;
+    }
+
+    .contact .email{
+        margin-top: 400px;
+        color: #31708e;
+    }
+
+    /* footer */
+    .footer{
+        padding-top: 50px;
+        min-height: 150px;
+        background-color: #31708e;
+    }
+
+    .footer a.link-footer{
+        color: #fefefe;
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .footer a:hover {
+        color: #fefefe;
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+
+    /* social media */
+    .fa {
+        margin-left: 50px;
+        font-size: 18px;
+        width: 18px;
+        text-decoration: none;
+        border-radius: 50%;
+        color: #fefefe;
+    }
+    
+    .fa-copyright{
+        font-size: 12px;
+        width: 12px;
+    }
+
+    .copyright {
+        margin-top: 50px;
+        color: #fefefe;
+    }
+
+    p.copyright {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .contact{
+        background-position: -200px center;
+    }
+
+    .contact h2{
+        margin-left: -90px;
+        font-size: 24px;
+        font-weight: 1;
+        color: #404040;
+    }
+    
+    .contact h2 span{
+        color: #31708e;
+        font-weight: bold;
+    }
+    
+    .contact .email{
+        margin-top: 250px;
+        color: #31708e;
+    }
+    
+}

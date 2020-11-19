@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
+
+    <!-- burger ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="style-port.css">
+    <title>Jauhari</title>
+</head>
+<body>
+    <div class="container">        
+        <!-- NAV -->
+        <nav class="nav">
+            <div class="brand">
+                <h2>Jauhari</h2>
+            </div>
+            <div class="navbar off" id="navbar">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- hamburger menu -->
+            <div class="nav-toggle">
+                <input type="checkbox" name="" id=""/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+
+        <!-- HEADER -->
+        <header class="header" id="about">
+            <section class="hero" id="welcome-section">
+                <h1>Hi, I am Jauhari</h1>
+                <p>UI/UX Designer & Web Developer</p>
+            </section>
+        </header>
+
+
+        <!-- PROJECTS -->
+        <section class="projects" id="projects">
+            <h2>My Projects</h2>
+            <div class="project-tile">
+                <a href="project1/index.html" target="_blank">
+                    <img src="https://source.unsplash.com/random/301x301" alt="">
+                    <p>Project 1</p>
+                </a>
+            </div>
+            <div class="project-tile">
+                <img src="https://source.unsplash.com/random/302x302" alt="">
+                <p>Project 2</p>
+            </div>
+            <div class="project-tile">
+                <img src="https://source.unsplash.com/random/303x303" alt="">
+                <p>Project 3</p>
+            </div>
+            <div class="project-tile">
+                <img src="https://source.unsplash.com/random/304x304" alt="">
+                <p>Project 4</p>
+            </div>
+            <div class="project-tile">
+                <img src="https://source.unsplash.com/random/305x305" alt="">
+                <p>Project 5</p>
+            </div>
+            <div class="project-tile">
+                <img src="https://source.unsplash.com/random/306x306" alt="">
+                <p>Project 6</p>
+            </div>
+            <a href="#" class="project-btn">See more projects</a>
+        </section>
+    </div>
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <header>
+            <h2>Let's Work Together..</h2>
+            <p>We can build something great, lets start today</p>
+        </header>
+        <div class="contact-links">
+            <a
+              href="https://facebook.com/raeirie"
+              target="_blank"
+              ><i class="fab fa-facebook-square"></i> Facebook</a
+            >
+            <a
+              id="profile-link"
+              href="https://github.com/raeirie"
+              target="_blank"
+              ><i class="fab fa-github"></i> GitHub</a
+            >
+            <a
+              href="https://twitter.com/raeirie"
+              target="_blank"
+              ><i class="fab fa-twitter"></i> Twitter</a
+            >
+            <a href="mailto:raeirie@gmail.com" 
+              ><i class="fas fa-at"></i> Send a mail</a
+            >
+          </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+        <p>Copyright Jauhari 2020</p>
+    </footer>
+    <script>
+        // JS hamburger nav slide animation
+        const navToggle = document.querySelector('.nav-toggle input');
+        const navOn = document.querySelector('.nav ul');
+        const nav = document.querySelector('.nav ul');
+
+        navToggle.addEventListener('click', function(){
+            nav.classList.toggle('on');
+        });
+
+        navOn.addEventListener('click', function(){
+            nav.classList.toggle('on');
+
+        navToggle.checked = false;
+        });
+    </script>
+</body>
+</html>
